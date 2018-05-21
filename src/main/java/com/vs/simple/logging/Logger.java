@@ -19,7 +19,6 @@ public interface Logger {
 }
 
 enum LoggerLevels {
-
     INFO(1),
     ERROR(2),
     DEBUG(3),
@@ -34,11 +33,11 @@ enum LoggerLevels {
 
 }
 
-enum LoggerTypes{
+enum LoggerTypes {
     SYSTEM_OUT(1),
     FILE(2);
 
-    public  int type;
+    public int type;
 
     LoggerTypes(int type) {
         this.type = type;
